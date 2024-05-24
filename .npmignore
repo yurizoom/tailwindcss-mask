@@ -1,0 +1,8 @@
+/node_modules
+.idea*
+.gitignore
+/src*
+tsconfig.json
+vite.config.js
+README.md
+CHANGELOG.md

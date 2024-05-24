@@ -1,0 +1,72 @@
+{
+    "name": "@yurizoom/tailwindcss-mask",
+    "version": "1.0.0",
+    "description": "Tailwindcss utilities",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yurizoom/tailwindcss-mask.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yurizoom/tailwindcss-mask/issues"
+    },
+    "homepage": "https://github.com/yurizoom/tailwindcss-mask#readme",
+    "authors": [
+        {
+            "name": "Yuri Rogov",
+            "url": "https://github.com/yurizoom"
+        }
+    ],
+    "keywords": [
+        "tailwindcss",
+        "mask",
+        "plugin",
+        "tailwindcss-plugin",
+        "tailwindcss mask",
+        "mask image",
+        "yurizoom"
+    ],
+    "type": "module",
+    "files": [
+        "dist"
+    ],
+    "main": "./dist/index.umd.cjs",
+    "module": "./dist/index.js",
+    "exports": {
+        ".": {
+            "import": "./dist/index.js",
+            "require": "./dist/index.umd.cjs"
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "tsc && vite build"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "peerDependencies": {
+        "tailwindcss": ">=3.0.0 || >=3.0.0-alpha.1"
+    },
+    "devDependencies": {
+        "@types/node": "^20.4.8",
+        "autoprefixer": "^10.4.14",
+        "lodash": "^4.17.21",
+        "postcss": "^8.4.27",
+        "tailwindcss": "^3.3.3",
+        "typescript": "^5.0.2",
+        "vite": "^4.4.5",
+        "vite-plugin-dts": "^3.5.1"
+    }
+}
